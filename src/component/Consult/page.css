@@ -1,0 +1,262 @@
+.Main-Page {
+  background: #121b27;
+}
+.bubble-4 {
+  position: absolute;
+  width: 102px;
+  height: 102px;
+  left: 138px;
+  top: 991px;
+
+  /* background: linear-gradient(92.7deg, #5404FF 7.9%, #BA2AD1 88.1%); */
+  /* box-shadow: inset 1.02px 2.04px 51px #001D6E; */
+}
+.star-4 {
+  position: absolute;
+  width: 32px;
+  height: 40px;
+  left: 415px;
+  top: 1133px;
+
+  /* background: #f4b41a; */
+  border-radius: 1px;
+}
+.star-5 {
+  position: absolute;
+  width: 48px;
+  height: 64px;
+  left: 595px;
+  top: 1756px;
+
+  /* background: #F4B41A; */
+  border-radius: 1px;
+}
+.star-6 {
+  position: absolute;
+  width: 48px;
+  height: 64px;
+  left: 1069px;
+  top: 1861px;
+
+  /* background: #F4B41A; */
+  border-radius: 1px;
+}
+.stroke-1 {
+  position: absolute;
+  width: 18.25px;
+  height: 26.5px;
+  left: 586.25px;
+  top: 1040.25px;
+}
+.stroke-2 {
+  position: absolute;
+  width: 18.25px;
+  height: 26.5px;
+  left: 601.25px;
+  top: 1033.25px;
+}
+.stroke-3 {
+  position: absolute;
+  width: 18.25px;
+  height: 29px;
+  left: 600.95px;
+  top: 1054px;
+}
+.stroke-4 {
+  position: absolute;
+  width: 18.25px;
+  height: 19px;
+  left: 586.25px;
+  top: 1064px;
+}
+.stroke-5 {
+  position: absolute;
+  width: 18.25px;
+  height: 26.5px;
+  left: 1041px;
+  top: 1030.25px;
+}
+.stroke-6 {
+  position: absolute;
+  width: 18.25px;
+  height: 17px;
+  left: 1055.5px;
+  top: 1030px;
+}
+.stroke-7 {
+  position: absolute;
+  width: 18.25px;
+  height: 29px;
+  left: 1053.5px;
+  top: 1043px;
+}
+.stroke-8 {
+  position: absolute;
+  width: 18.25px;
+  height: 19px;
+  left: 1039px;
+  top: 1052px;
+}
+.Page-text {
+  margin-top: 21rem;
+  height: 83px;
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 130%;
+  color: #fcfcfc;
+}
+.linePng {
+  position: absolute;
+  left: 17rem;
+  width: 169px;
+  height: 64px;
+  margin-top: -2rem;
+}
+.Page-content {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  margin-top: 5rem;
+  /* text-align: center; */
+  margin-left: -1rem;
+  /* color: #fcfcfc; */
+}
+.form-content1 {
+  margin: 24rem 0 12rem 0;
+  width: 433px;
+  height: 697px;
+
+  background: #1d2939;
+  border-radius: 20px;
+}
+.form-content1 h1 {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 130%;
+  /* or 31px */
+  padding: 2rem;
+  margin: 0 0 0 1.7rem;
+
+  color: #ffffff;
+}
+.form-content2 {
+  background-color: transparent !important;
+  margin: 0 0 2rem 3.5rem;
+  color: #fcfcfc;
+  box-shadow: none !important;
+}
+.form-content1 textarea {
+  width: 333px;
+  height: 137px;
+  margin: 2rem 0 0 0;
+  border-radius: 5px;
+  /* border: none; */
+}
+.form-content1 textarea:active {
+  border: none;
+}
+.form-content1 select {
+  margin: auto;
+  border-radius: 5px;
+  padding: 0.375rem 0.75rem;
+  border: 1px solid #ced4da;
+}
+.form-content1 select option {
+  font-weight: 400;
+  line-height: 1.5;
+  appearance: none;
+  background-color: #121b27;
+  border: none;
+}
+.form-content1 button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 8rem;
+  border: 1px solid transparent;
+  /* Web linar */
+  margin: auto;
+  margin-top: 1rem;
+  background: linear-gradient(
+    112.92deg,
+    #5404ff 18.35%,
+    rgba(189, 59, 210, 0.94) 71.49%
+  );
+  border-radius: 100px;
+  color: #ffffff;
+  font-weight: bolder;
+}
+@media (max-width: 769px) {
+  .Page-text {
+    margin-left: 1.4rem;
+    margin-top: 21rem;
+
+    font-size: 44px;
+  }
+  .linePng {
+    position: absolute;
+    left: 8rem;
+    width: 169px;
+    height: 64px;
+    margin-top: -2rem;
+  }
+  .star-5 {
+    position: absolute;
+    width: 32px;
+    height: 40px;
+    left: 265px;
+    top: 1213px;
+
+    /* background: #f4b41a; */
+    border-radius: 1px;
+  }
+  .star-4,
+  .star-6 {
+    display: none;
+  }
+  .Page-content {
+    width: 350px;
+    font-family: "Satoshi";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    margin-top: 5rem;
+    /* text-align: center; */
+    margin-left: -0.4rem;
+    /* color: #fcfcfc; */
+  }
+  .form-content1 {
+    margin: 6rem 0 12rem 0;
+    width: 333px;
+    height: 697px;
+
+    background: #1d2939;
+    border-radius: 20px;
+  }
+  .strokepng {
+    position: absolute;
+    left: -48rem;
+    top: 47rem;
+  }
+  .form-content1 select {
+    margin-left: 2rem;
+  }
+  .form-content1 textarea {
+    width: 303px;
+    height: 117px;
+    margin: 2rem 0 0 1rem;
+    border-radius: 5px;
+    /* border: none; */
+  }
+  .form-content1 button {
+    padding: 0.5rem 5rem;
+    margin: auto;
+    margin-top: 1rem;
+  }
+}

@@ -1,0 +1,280 @@
+.Main {
+  width: 100%;
+  height: 100%;
+  background: #121b27;
+}
+.Home-Container {
+  padding-top: 7rem;
+}
+.Main-heading {
+  margin: auto;
+  width: 700px;
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 130%;
+  /* or 83px */
+  text-align: center;
+  color: #ffffff;
+}
+p {
+  width: 400px;
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 130%;
+  /* or 31px */
+
+  text-align: center;
+
+  /* Text White */
+
+  color: #fcfcfc;
+  margin-left: 8rem;
+}
+.bubble-1 {
+  position: absolute;
+  width: 102px;
+  height: 102px;
+  left: 995px;
+  top: 96px;
+  border-radius: 50%;
+
+  background: linear-gradient(92.7deg, #5404ff 7.9%, #ba2ad1 88.1%);
+  box-shadow: inset 1.02px 2.04px 51px #001d6e;
+}
+.bubble-2 {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  left: 6rem;
+  right: 0%;
+  top: 12rem;
+  bottom: 0%;
+  border-radius: 50%;
+  background: linear-gradient(92.7deg, #5404ff 7.9%, #ba2ad1 88.1%);
+  box-shadow: inset 2px 4px 100px #001d6e;
+}
+.main-form {
+  width: 24rem !important;
+  margin: auto !important;
+}
+.form-content {
+  background-color: transparent !important;
+  border-left-color: transparent !important;
+  box-shadow: none !important;
+}
+.form-content::placeholder {
+  font-family: "Satoshi" !important;
+  font-weight: 400;
+  line-height: 22px;
+
+  color: #ffffff !important;
+}
+.basic-addon1 {
+  background-color: transparent !important;
+  border-right-color: transparent !important;
+}
+.input-button {
+  padding: 14px 12px;
+  border: none;
+  width: 443px;
+  height: 50px;
+
+  /* Web linar */
+
+  background: linear-gradient(
+    112.92deg,
+    #5404ff 18.35%,
+    rgba(189, 59, 210, 0.94) 71.49%
+  );
+  border-radius: 100px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.ball-1 {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+
+  /* Andriod blue */
+  background: #175ce1;
+
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 700;
+
+  line-height: 230%;
+  /* or 21px */
+
+  /* Text White */
+
+  color: #fcfcfc;
+}
+.ball-2 {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+
+  /* Andriod purple */
+
+  background: #a75fd2;
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 700;
+
+  line-height: 230%;
+  /* or 21px */
+
+  /* Text White */
+
+  color: #fcfcfc;
+}
+.star-1 {
+  position: absolute;
+  width: 27px;
+  height: 35px;
+  left: 549px;
+  top: 176px;
+
+  /* background: #f4b41a; */
+  border-radius: 1px;
+}
+.star-2 {
+  position: absolute;
+  width: 27px;
+  height: 35px;
+  left: 1099px;
+  top: 264px;
+
+  /* background: #f4b41a; */
+  border-radius: 1px;
+}
+.star5 {
+  position: absolute;
+  width: 48px;
+  height: 64px;
+  left: 1292px;
+  top: 719px;
+
+  /* background: #f4b41a; */
+  border-radius: 1px;
+}
+.zigzagImg {
+  position: absolute;
+  left: 67.39%;
+  /* right: -78.84%; */
+  top: 65.03%;
+  /* bottom: -14.75%; */
+
+  /* Andriod blue */
+
+  /* border: 4.08183px solid #175ce1; */
+  /* transform: matrix(0.79, 0.62, -0.69, 0.72, 0, 0); */
+}
+.bubble-3 {
+  position: absolute;
+  left: 78.6%;
+  right: 0%;
+  top: 35%;
+  bottom: 0%;
+  width: 18rem;
+
+  /* background: linear-gradient(92.7deg, #5404FF 7.9%, #BA2AD1 88.1%); */
+  /* box-shadow: inset 4px 8px 200px #001D6E; */
+  /* filter: blur(15px); */
+}
+.star-3 {
+  position: absolute;
+  width: 43px;
+  height: 60px;
+  left: 157px;
+  top: 773px;
+
+  /* background: #F4B41A; */
+  border-radius: 1px;
+}
+.star-4 {
+  position: absolute;
+  width: 45px;
+  height: 60px;
+  left: 1142px;
+  top: 699px;
+
+  /* background: #f4b41a; */
+  border-radius: 1px;
+}
+.Main-content {
+  width: 738px;
+  height: 131px;
+  margin: auto;
+  font-size: 24px;
+  line-height: 130%;
+  letter-spacing: 2px;
+
+  text-align: center;
+
+  /* Text White */
+
+  color: #fcfcfc;
+}
+@media (max-width: 769px) {
+  .bubble-2 {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+  }
+  .Home-Container {
+    position: relative !important;
+  }
+  .Main-heading {
+    width: 370px;
+    font-size: 40px;
+    margin-left: -3.43rem;
+    margin-bottom: 2rem;
+    transform: translate(10%, -10%);
+  }
+  .star-1 {
+    position: absolute;
+    width: 27px;
+    height: 35px;
+    left: 289px;
+    top: 66px;
+  }
+  .Main-content {
+    width: 358px;
+    height: 131px;
+    transform: translate(-3%, -10%);
+    margin-bottom: 9rem;
+  }
+  .bubble-3 {
+    position: absolute;
+    left: 64.3%;
+    right: 0%;
+    top: 65%;
+    bottom: 0%;
+    width: 8rem;
+  }
+  .star-2,
+  .star-3,
+  .star5,
+  .star-4,
+  .bubble-1 {
+    display: none;
+  }
+  .main-form {
+  width: 20rem !important;
+  margin: auto !important;
+}
+.input-button {
+  padding: 14px 12px;
+  border: none;
+  width: 343px;
+  height: 50px;
+}
+}

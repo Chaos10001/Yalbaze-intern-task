@@ -1,0 +1,51 @@
+.main-1 h2 {
+  width: 287px;
+  height: 44px;
+
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.main-2 h2 {
+  width: 281px;
+  height: 27px;
+
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: rgba(255, 255, 255, 0.8);
+}
+.main-3 h2 {
+  width: 158px;
+  height: 22px;
+
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
+
+  color: #ffffff;
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
